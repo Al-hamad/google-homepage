@@ -1,28 +1,46 @@
+
+
 .container {
     width: 100vw;
     height: 100vh;
 }
 
- img {
+.search-box {
     display: block;
     margin: auto;
-    padding: 150px 0 20px;
-    height: 100px;
+    width: 582px
 }
 
-.search input {
-    display: block;
-    margin: auto;   
+
+ img {
+    display:block;
+    margin:auto;
+    text-align: center;
+    padding: 150px 0 20px;
+    height: 90px;
+}
+
+.search-box input {
     height: 34px;
     width: 582px;
     border: 2px solid #605e5e29;
     border-radius: 24px;
     outline: none;
 }
-
-.btn {
-    display: block;
-    margin: auto;   
-    width: 30%;
+.btn-box {
+    margin: 20px 120px;
 }
 
+.button {
+    margin: 0px 0;
+    padding: 10px 24px;
+    background-color: #f1f1f1;
+    border: none;
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  
